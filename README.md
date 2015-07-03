@@ -1,2 +1,11 @@
-# assays
-Script to run assay data validation. Code copyrights belong to Mr. Chadwick Spencer.
+# Assays
+
+Script to run assay data validation.
+
+Place sample lab data in the `/lab` folder and sample client data in the `/client` folder.
+
+## Copyright
+
+All rights belong to Chadwick Spencer. For use by Amec Engineering.
+
+
