@@ -3,6 +3,7 @@ secret.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.DS_Store
 *.py[cod]
 
 # C extensions
@@ -11,6 +12,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+amec_env/
 build/
 develop-eggs/
 dist/
