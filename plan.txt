@@ -1,0 +1,24 @@
+Program Pseudocode
+==================
+
+1. Take all of the lab CSV files
+    A. Parse the Data
+    B. Insert parsed (relevant) data into MySQL DB.
+    
+2. Take the client CSV files
+    A. Parse the Data
+    B. Query parsed data against the lab DB.
+        - If it matches, increase the # of matches, and log it.
+        - If it fails to match, increase the # of fails, and log all details.
+        
+        
+Step #1
+=======
+
+1. Open up a folder of lab CSV files.
+2. Go through the folder, and send each file to a Processor class.
+    A. The Processor class is going to create a new dict
+    B. It is going to run the CSV Parser
+    C. And match the data row-by-row data to expected input.
+    D. When a match is made, the dict is modified to represent the data
+    E. Once the structure is determined, run through the data, and insert it into the the DB.
