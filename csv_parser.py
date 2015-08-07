@@ -5,7 +5,7 @@ def parse_csv(filename=None):
         with open(filename, 'rb') as f:
             reader = csv.reader(f)
             for row in reader:
-                print row
+                yield row
     except IOError:
         sys.exit("There was an error reading the file. Nothing was imported.")
     except csv.Error as e:
